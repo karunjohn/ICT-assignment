@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Josefin+Sans:ital@1&family=Raleway&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* For LOGO */
+#logo{
+    background-color: rgba(231, 158, 21, 0.836);
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+#navmenu{
+    align-items: center;
+    display: flex;
+}
+
+/* for menus  */
+.menu{
+    width: max-content;
+}
+
+/* for title in each page  */
+.title{
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    /* font-style: italic; */
+    color: antiquewhite;
+    text-align: center;
+}
+
+/* for text in menus  */
+.menu > a {
+
+    font-family: 'Barlow', sans-serif;
+    margin: 2.5px;
+    padding: 3px;
+
+    text-decoration: none;
+    color: antiquewhite;
+    border: 2px solid whitesmoke;
+
+}
+
+/* for hovering in menu  */
+.menu > a:hover{
+    color: rgba(236, 159, 17, 0.973);
+}
+
+/* for profile Photo */
+.foto{
+    
+    border-radius: 50%; 
+   
+    transition: all 0.5s;
+    /* margin-right: 86%;
+    margin-top: 20px; */
+}
+.foto:hover{
+    transform: scale(1.25);
+}
+.row{
+    margin-top: 30px;
+}
+#name{
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-weight: 300; */
+}
+.footer{
+    padding-left: 20px; padding-right: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: beige;
+}
+.edu{
+    text-align: left;
+}
